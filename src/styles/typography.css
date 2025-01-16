@@ -1,0 +1,19 @@
+.be-vietnam-pro-bold {
+    font-family: "Be Vietnam Pro", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.cinzel-decorative-bold {
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 700;
+    font-style: bold;
+}
+
+.secodary-font-color {
+    color: var(--secondary-font-color);
+}
+
+h1 {
+    font-size: 2.5rem;
+}
