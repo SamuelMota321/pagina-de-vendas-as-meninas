@@ -15,4 +15,10 @@
 body {
     height: 200vh;
     background-color: var(--background-color);
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1720px;
+    width: 100%;
 }
