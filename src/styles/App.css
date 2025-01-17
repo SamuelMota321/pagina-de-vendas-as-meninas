@@ -14,7 +14,7 @@
 
 body {
     height: 200vh;
-    background-color: var(--background-color);
+    background-image: url(../assets/Frame-1.png);
     box-sizing: border-box;
 }
 
