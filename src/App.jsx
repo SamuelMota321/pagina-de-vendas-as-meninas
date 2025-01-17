@@ -1,6 +1,7 @@
 import './styles/App.css'
 import Banner from './components/Banner'
 import Icons from './components/IconsSection'
+import Services from './components/ServicesSection'
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <>
       <Banner/>
       <Icons/>
+      <Services/>
     </>
   )
 }
