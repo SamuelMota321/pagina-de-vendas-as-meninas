@@ -4,6 +4,12 @@
     font-style: normal;
 }
 
+.be-vietnam-pro {
+    font-family: "Be Vietnam Pro", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 .cinzel-decorative-bold {
     font-family: "Cinzel Decorative", serif;
     font-weight: 700;
@@ -11,18 +17,19 @@
 }
 
 .afacad {
-  font-family: "Afacad", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Afacad", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .secodary-font-color {
     color: var(--secondary-font-color);
 }
 
-h1,h2 {
-    font-size: 2.5rem;
+h1,
+h2 {
+    font-size: 40px;
 }
 
 
@@ -33,4 +40,10 @@ p {
 
 .center {
     text-align: center;
+}
+
+@media (max-width: 1023px) {
+    h1,h2 {
+        font-size: 30px;
+    }
 }
