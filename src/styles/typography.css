@@ -10,10 +10,25 @@
     font-style: bold;
 }
 
+.afacad {
+  font-family: "Afacad", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .secodary-font-color {
     color: var(--secondary-font-color);
 }
 
 h1 {
     font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.25rem;
+}
+
+.center {
+    text-align: center;
 }
