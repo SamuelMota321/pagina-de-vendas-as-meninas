@@ -1,5 +1,5 @@
 import check from "../../assets/icons/Check.png"
-import sofa from "../../assets/sofa.png"
+import sofa from "../../assets/Sofa.png"
 import styles from "./styles.module.css"
 
 const Clean = () => {
