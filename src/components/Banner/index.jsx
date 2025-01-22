@@ -4,6 +4,9 @@ import seta from "../../assets/seta.png"
 import styles from "./styles.module.css"
 
 const Banner = () => {
+  const handleButtonClick = () => {
+    window.location.href = "https://wa.me/556181412454?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20um%20or%C3%A7amento...";
+  };
   return (
     <section className={styles.bannerSection}>
       <div className={styles.box1}>
@@ -14,7 +17,7 @@ const Banner = () => {
         <h1 className={`cinzel-decorative-bold ${styles.title}`} >Lavagem a seco em casa</h1>
         <div className={styles.bannerBar}></div>
         <h2 className={`be-vietnam-pro-bold secodary-font-color ${styles.subtitle}`}>A limpeza profissional no conforto do seu lar!</h2>
-        <button onClick={window.location.href = "https://wa.me/556181412454?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20um%20or%C3%A7amento..."} className={`${styles.bannerButton} be-vietnam-pro-bold`}>Solicitar Orçamento</button>
+        <button onClick={handleButtonClick} className={`${styles.bannerButton} be-vietnam-pro-bold`}>Solicitar Orçamento</button>
       </div>
       <div className={styles.bannerArrow}>
         <img src={seta} alt="Seta apontada para baixo" />
