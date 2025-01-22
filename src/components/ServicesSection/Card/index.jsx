@@ -7,7 +7,7 @@ const Card = ({ title, description, image, alter, style }) => {
             <h2 className="be-vietnam-pro-bold">{title}</h2>
             <span className={styles.span}></span>
             <p className="afacad">{description}</p>
-            <button className="be-vietnam-pro-bold">Solicitar Orçamento</button>
+            <button onClick={window.location.href = "https://wa.me/556181412454?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20um%20or%C3%A7amento..."} className="be-vietnam-pro-bold">Solicitar Orçamento</button>
         </div>
     )
 }

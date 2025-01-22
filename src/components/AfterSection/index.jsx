@@ -9,7 +9,7 @@ const After = () => {
             <div className={styles.flex}>
                 <img src={img1} alt="Antes e depois da limpeza" />
                 <img src={img2} alt="Antes e depois da limpeza" />
-                <button className="be-vietnam-pro-bold">Soliciar Orçamento </button>
+                <button onClick={window.location.href = "https://wa.me/556181412454?text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20um%20or%C3%A7amento..."} className="be-vietnam-pro-bold">Soliciar Orçamento </button>
             </div>
         </section>
     )
